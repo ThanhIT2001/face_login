@@ -1,0 +1,92 @@
+*{
+    font-family: inherit;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.login{
+    background-color: white !important;
+    position: relative;
+}
+.login .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh !important;
+    margin: auto;
+}
+.login .col .col-left{
+
+}
+.login .col .col-left img{
+    width: 20rem;
+    padding: .7rem;
+
+}
+.login .col .col-left p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #1c1e21;
+    max-width: 36rem;
+}
+.login .col .col-right{
+    padding: 5rem;
+
+}
+.login .col .col-right form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 400px;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+}
+.login .col .col-right form .form-text{
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    border: 1px solid #cbd5e0;
+    margin-top: .5rem;
+}
+.login .col .col-right form .form-text .input-text{
+    padding: .5rem;
+}
+.login .col .col-right form .form-text .input-text{
+    padding: .5rem;
+}
+.login .col .col-right form .btn-login {
+    margin-top: 1rem!important;
+    height: 45px !important;
+    line-height: 30px !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+}
+.login .col .col-right form .pass {
+    text-align: center;
+}
+.login .col .col-right form .btn-create {
+    height: 45px !important;
+    line-height: 30px !important;
+    background: #42b72a !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important
+}
+.login .col .col-right .content{
+    margin-top: .7rem;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login .col .col-right .content .create-page{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1c1e21;
+}
+.login .col .col-right .content .create-page:hover{
+    text-decoration: underline;
+    color: #1c1e21;
+}

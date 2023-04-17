@@ -1,0 +1,17 @@
+*{
+    font-family: inherit;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: black;
+}
+.login{
+    background-color: white;
+}
+.login .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
